@@ -45,17 +45,17 @@ function draw(){
     imageMode(CENTER);
     if(appState===0){
 
-        fatsBox = createSprite(windowWidth/5.75, windowHeight/2, windowWidth/3.5, windowWidth/3.5);
-        vitaminBox = createSprite(windowWidth/2.025, windowHeight/2, windowWidth/3.5, windowWidth/3.5);
-        proteinBox = createSprite(windowWidth/2 + windowWidth/3.2, windowHeight/2, windowWidth/3.5, windowWidth/3.5);
+        fatsBox = createSprite(windowWidth/5.75, windowHeight/3, windowWidth/3.5, windowWidth/3.5);
+        vitaminBox = createSprite(windowWidth/2.025, windowHeight/3, windowWidth/3.5, windowWidth/3.5);
+        proteinBox = createSprite(windowWidth/2 + windowWidth/3.2, windowHeight/3, windowWidth/3.5, windowWidth/3.5);
 
         proteinBox.visible = false;
         vitaminBox.visible = false;
         fatsBox.visible = false;
 
-        image(fatsImg, windowWidth/5.75, windowHeight/2, windowWidth/3.5, windowWidth/3.5);
-        image(vitaminImg, windowWidth/2.025, windowHeight/2, windowWidth/3.5, windowWidth/3.5);
-        image(proteinImg, windowWidth/2 + windowWidth/3.2, windowHeight/2, windowWidth/3.5, windowWidth/3.5);
+        image(fatsImg, windowWidth/5.75, windowHeight/3, windowWidth/3.5, windowWidth/3.5);
+        image(vitaminImg, windowWidth/2.025, windowHeight/3, windowWidth/3.5, windowWidth/3.5);
+        image(proteinImg, windowWidth/2 + windowWidth/3.2, windowHeight/3, windowWidth/3.5, windowWidth/3.5);
     }
 
     if(mousePressedOver(proteinBox)&&appState===0){

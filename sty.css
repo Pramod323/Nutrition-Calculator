@@ -1,0 +1,64 @@
+h1{
+  font-size: 60px;
+  margin-left: 40px;
+  margin-top: 0px;
+}
+
+h5{
+  font-size: 16px;
+  text-align: end;
+}
+
+.header{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+hr{
+  height: 1px;
+  background-color: black;
+  border: none
+}
+
+body{
+  background-color: #00FFFF;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+p{
+  text-align: center;
+}
+
+.item{
+  margin: 50px;
+  position: relative;
+}
+
+.item p{
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.item:hover p{
+  opacity: 1;
+}
+
+.item:hover img{
+  opacity: 0.5;
+}
+
+  
+  
+/*
+*Pramod Prasad Singh
+WHJR MARS HACKATHON
+*/

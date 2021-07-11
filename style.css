@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h5{
+  font-size: 16px;
+  text-align: end;
+}
+
+h1{
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+hr{
+  height: 1px;
+  background-color: black;
+  border: none
+}
+
+body{
+  background-color: #00FFFF;
+}
+
+.header{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+a{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+
+/*
+*Pramod Prasad Singh
+WHJR MARS HACKATHON
+*/
